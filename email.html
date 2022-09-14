@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function fun(){
+
+var inp=document.getElementById("inp1").value;
+if(inp.length>=20 && inp.length<=25){
+    if(inp.length==20){
+        var regx= /^[a-z][a-z 0-9]{9}@gmail.com$/;
+    }
+    else if(inp.length==21){
+        var regx= /^[a-z][a-z 0-9]{10}@gmail.com$/;
+    }
+    else if(inp.length==22){
+        var regx= /^[a-z][a-z 0-9]{11}@gmail.com$/;
+    }
+    else if(inp.length==23){
+        var regx= /^[a-z][a-z 0-9]{12}@gmail.com$/;
+    }
+    else if(inp.length==24){
+        var regx= /^[a-z][a-z 0-9]{13}@gmail.com$/;
+    }
+    else{
+        var regx= /^[a-z][a-z 0-9]{14}@gmail.com$/;
+    }
+    if(regx.test(inp)){
+        alert("valid email");
+        document.getElementById("inp1").style="border: solid 3px green; visibility:visible";
+     document.getElementById("h").style="font-size: 30px; color: red; visibility:hidden";
+    }
+    else{
+     document.getElementById("inp1").style="border: solid 3px red; visibility:visible";
+     document.getElementById("h").style="font-size: 30px; color: red; visibility:visible";
+    }
+}
+else{
+    document.getElementById("inp1").style="border: solid 3px red; visibility:visible";
+     document.getElementById("h").style="font-size: 30px; color: red; visibility:visible";
+    
+}
+            }
+</script>
+        <body>
+            <input type="email" id="inp1" />
+            <br><h1 id="h" style="font-size: 30px; color: red; visibility:hidden ;">Invalid</h1><br>
+            <button onclick="fun()">click</button>
+        </body>
+    </head>
+</html>

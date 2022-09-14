@@ -1,0 +1,12 @@
+Number Imported are:11
+22
+33
+44
+addition of 2 paired numbers are:2
+4
+6
+8
+Multiplication of that numbers are:1
+4
+9
+16

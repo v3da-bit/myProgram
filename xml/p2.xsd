@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<xs:schemaxmlns:xs="">
+	<xs:element name="Student1">
+        <xs:element name="enrollement">
+		    <xs:element name="name">    
+                <xs:element name="mobilenumber">
+                    <xs:element name="email">
+            </xs:element>
+        </xs:schema>
+          
+        

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="p2.xsd">
+<student1>
+<enrollement>20BEIT30041</enrollement>
+<name>Vedant Khamar</name>
+<mobilenumber>9104527828</mobilenumber>
+<email>vedantkhamar975@gmail.com</email>
+
+</student1>
+<student2>
+
+<enrollement2>20BEIT30038</enrollement2>
+<name2>Darsh kantaria</name2>
+<mobilenumber2>9104589890</mobilenumber2>
+<email2>darsh@gmail.com</email2>
+
+</student2>
+<student3>
+<enrollement2>20BEIT30056</enrollement2>
+<name2>Vasudev</name2>
+<mobilenumber2>9104589997</mobilenumber2>
+<email2>Vasudev@gmail.com</email2>
+
+</student3>
+</student>

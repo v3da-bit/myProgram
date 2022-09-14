@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="p3.xsl"?>
+
+<class>
+<student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" href="p3.xsl">
+
+    <name>Vedant Khamar</name>
+    <enrollnment>20BEIT30041</enrollnment>
+    <email>vedantkhamar975@gmail.com</email>
+    <mobile>9104527828</mobile>
+    <address>Kadi</address>
+    <college>LDRP</college>
+    <branch>IT</branch>
+    
+</student>
+<student>
+
+    <name>Darsh Kantaria</name>
+    <enrollnment>20BEIT30038</enrollnment>
+    <email>dskantaria007@gmail.com</email>
+    <mobile>9106239071</mobile>
+    <address>Junagadh</address>
+    <college>LDRP</college>
+    <branch>IT</branch>
+    
+</student>
+<student>
+
+    <name>Monil Khamar</name>
+    <enrollnment>20BEIT30040</enrollnment>
+    <email>monilkh1@gmail.com</email>
+    <mobile>9105643122</mobile>
+    <address>Patan</address>
+    <college>LDRP</college>
+    <branch>IT</branch>
+    
+</student>
+<student>
+
+    <name>Vasudev Panchani</name>
+    <enrollnment>20BEIT30056</enrollnment>
+    <email>vasudev@gmail.com</email>
+    <mobile>9106238975</mobile>
+    <address>Surat</address>
+    <college>LDRP</college>
+    <branch>IT</branch>
+    
+</student>
+
+</class>

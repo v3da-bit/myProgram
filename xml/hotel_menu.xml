@@ -1,0 +1,69 @@
+<?xml version = "1.0"?>
+
+<?xml-stylesheet type = "text/xsl" href = "hotel_menu.xsl"?>
+
+<food>
+<starter>
+<name>Paneer Chilli</name>
+<price>$10</price>
+</starter>
+<starter>
+<name>Sizzler</name>
+<price>$12</price>
+</starter>
+<starter>
+<name>Veg Manchurian</name>
+<price>$9</price>
+</starter>
+    <paneer>
+        <name1>Paneer Bhurji</name1>
+        <price1>$17</price1>
+    </paneer>
+    <paneer>
+        <name1>Paneer Angara</name1>
+        <price1>$16</price1>
+    </paneer>
+    <paneer>
+        <name1>Paneer Butter Masala</name1>
+        <price1>$14</price1>
+    </paneer>
+    <veg>
+        <name2>Veg Jaipuri</name2>
+        <price2>$20</price2>
+    </veg>
+    <veg>
+        <name2>Kaju Kari</name2>
+        <price2>$16</price2>
+    </veg>
+    <veg>
+        <name2>Veg Kofta</name2>
+        <price2>$14</price2>
+    </veg>  
+    <fast>
+    <name4>Veg Burger</name4>
+    <price4>$10</price4>
+    </fast>
+    <fast>
+    <name4>Margerita Pizza</name4>
+    <price4>$20</price4>
+    </fast>
+    <fast>
+    <name4>Samosa</name4>
+    <price4>$6</price4>
+    </fast>
+    <desert>
+    <name3>Starwberry Pie</name3>
+    <price3>$15</price3>    
+    </desert>
+    <desert>
+    <name3>Chocolate Ice-Cream</name3>
+    <price3>$10</price3>    
+    </desert> 
+    <desert>
+    <name3>Blueberry Cheese Cake</name3>
+    <price3>$20</price3>    
+    </desert> 
+   
+ 
+ 
+</food>

@@ -1,0 +1,41 @@
+<html>
+    <head>
+       
+        <script type="text/javascript">
+            function fun(){
+        
+    var pass=document.getElementById("pass").value.trim();
+    var email=document.getElementById("email").value.trim();
+    var regx=/^([a-z])([a-z 0-9\.-]+)@([a-z]+).([a-z]{2,8})(.[a-z]{2,8})?$/
+    var regx2=/^[A-Z]([a-z A-Z 0-9]+)$/
+    if(pass.length>=8 && pass.length<=15){
+    if(regx.test(email) && regx2.test(pass)){
+    document.write("<h2>"+email +" is valid"+"</h2>");
+        document.write("<h2>"+pass +" is valid"+"</h2>");
+
+        
+    }   
+    else if(regx.test(email)==true && regx2.test(pass)==false){
+        document.write("<h2>password is incorrect</h2>");
+    }     
+    else if(regx.test(email)==false && regx2.test(pass)==true){
+        document.write("<h2>enter valid email</h2>");
+    }
+    else{
+        document.write("<h2>both are invalid</h2>");
+    }
+    }
+    else{
+       document.write("<h2>wrong password,password is atleast 8 characters and maximum 15 characters in it</h2>")
+    }
+}
+        </script>
+         <body>
+            <form onsubmit="fun()" action="#">
+                <br><input type="email" id="email"/><br>
+                <input type="password" id="pass" /><br>
+                <input type="submit"/>
+        </form>
+        </body>
+    </head>
+</html>
